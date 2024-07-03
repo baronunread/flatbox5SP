@@ -5,8 +5,9 @@ This is rev 5SP, remix of [Jfedor2's Rev 5](https://github.com/jfedor2/flatbox/t
 To make one you will need:
 
 * [3D printed](3d-printed-case) case parts - top and bottom
-* [the Flatbox PCB](pcb)
+* [the Flatbox 5SP PCB](pcb)
 * [RP2040-Zero](https://www.waveshare.com/rp2040-zero.htm)
+* 1 USB Female host, you should get these kind of USB [Aliexpress](https://aliexpress.com/item/32265708803.html)
 * 12x Kailh low profile (choc v1) switches of your choice
 * (optionally) 12x Kailh low profile hotswap sockets
 * [3D printed buttoncaps](../3d-printed-buttoncaps)
@@ -30,8 +31,6 @@ To flash the firmware, connect the board to a computer with a USB cable, then pr
 ![Flatbox rev5 unpopulated PCB](images/Flatbox-rev5-unpopulated-pcb.jpg)
 
 ![RP2040-Zero soldered on top of the PCB](images/Flatbox-rev5-rp2040-zero-soldered.jpg)
-
-![Flatbox rev5 exploded view of the 3D printed case](images/Flatbox-rev5-exploded.png)
 
 PCB design licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
