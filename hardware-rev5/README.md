@@ -1,10 +1,10 @@
 # Flatbox rev5
 
-This is rev5 of the Flatbox. In this version an [RP2040-Zero](https://www.waveshare.com/rp2040-zero.htm) board is soldered onto the main PCB.
+This is rev 5SP V1.0. In this version an [RP2040-Zero](https://www.waveshare.com/rp2040-zero.htm) board is soldered onto the main PCB and a USB female port is added to the side.
 
 To make one you will need:
 
-* [3D printed](3d-printed-case) or [CNC machined](cnc-machined-case) case parts - top and bottom
+* [3D printed](3d-printed-case) case parts - top and bottom
 * [the Flatbox PCB](pcb)
 * [RP2040-Zero](https://www.waveshare.com/rp2040-zero.htm)
 * 12x Kailh low profile (choc v1) switches of your choice
@@ -17,11 +17,9 @@ To make one you will need:
 
 I printed the case at 0.20mm layer height. The top part should be printed upside-down, the bottom part should be printed as-is. They don't require supports.
 
-The CNC machined case can be ordered at [JLCPCB](https://jlcpcb.com/). I used 6061 aluminum. There are various surface finish options like bead blasting and anodizing that you can select. Be sure to select the "threads" option for the top part and upload the PDF file.
-
 The PCB can be ordered from a number of online services using the included [Gerber files](pcb), I used [JLCPCB](https://jlcpcb.com/) (leave all the settings at default, you can choose the PCB color). PCB thickness should be 1.6mm.
 
-The switches can be soldered in directly to the PCB or you can use hotswap sockets. If you want to use hotswap sockets, you will have to print the appropriate bottom part of the case (it's 1mm thicker). The CNC machined case is also hotswap compatible.
+The switches can be soldered in directly to the PCB or you can use hotswap sockets. There's only one version of the case and it supports the added size of the hotswap sockets.
 
 For the firmware you probably want to use [GP2040-CE](https://gp2040-ce.info/). Go to the [GP2040-CE downloads page](https://gp2040-ce.info/downloads/) and get the UF2 file for Flatbox rev5. Do not get the file for the Waveshare RP2040-Zero, even though your stick uses it (it has a different pinout).
 
