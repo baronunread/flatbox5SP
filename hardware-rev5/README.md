@@ -1,4 +1,4 @@
-# Flatbox rev5
+# Flatbox rev 5SP
 
 This is rev 5SP V1.0. In this version an [RP2040-Zero](https://www.waveshare.com/rp2040-zero.htm) board is soldered onto the main PCB and a USB female port is added to the side.
 
