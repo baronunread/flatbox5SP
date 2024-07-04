@@ -4,7 +4,7 @@ This repository contains 3D-printable models, PCB design files needed to make an
 
 ![Assembled fightstick](https://github.com/baronunread/flatbox5SP/assets/50637199/3afaf9e5-e327-40fd-8197-14b3200fa890)
 
-This is a remix of the Flatbox Rev 5 by Jfedor2 but with the added functionality of the recent update of the GP2040-CE firmware that now supports external devices that can authenticate the fightsticks and enable them to be used also on PS5 and Xbox Series X|S
+This is a remix of the [Flatbox Rev 5 by jfedor2](https://github.com/jfedor2/flatbox/tree/master/hardware-rev5) but with the added functionality of the recent update of the GP2040-CE firmware that now supports external devices that can authenticate the fightsticks and enable them to be used also on PS5 and Xbox Series X|S
 
 The philosophy of this remix is to unify the auth addon and the controller itself without having anything sticking out from the side. 
 
