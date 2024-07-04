@@ -1,18 +1,13 @@
-# Flatbox: Low profile hitbox-layout fightstick
+# Flatbox 5SP: Low profile hitbox-layout fightstick with added (side) passthrough
 
-This repository contains 3D-printable models, PCB design files and code needed to make an arcade controller that looks like this:
+This repository contains 3D-printable models, PCB design files needed to make an arcade controller that looks like this:
 
-![Assembled Flatbox](hardware-rev2/images/Flatbox-rev2b-finished-product.jpg)
+![Assembled fightstick](https://github.com/baronunread/flatbox5SP/assets/50637199/3afaf9e5-e327-40fd-8197-14b3200fa890)
 
-There are six major versions of the Flatbox. They all use Kailh low profile (choc v1) mechanical keyboard switches. The table below lists their main features. See the README for each version for details on how to make them.
+This is a remix of the [Flatbox Rev 5 by jfedor2](https://github.com/jfedor2/flatbox/tree/master/hardware-rev5) but with the added functionality of the recent update of the GP2040-CE firmware that now supports external devices that can authenticate the fightsticks and enable them to be used also on PS5 and Xbox Series X|S
 
-version | case dimensions (mm) | compatibility | add-on board | onboard chip | SMT assembly required | firmware
-------- | --------------- | ------------- | ------------ | ------------ | --------------------- | --------
-[rev1.1](hardware-rev1.1) | 218x128x10 | PC, PS3 | Arduino Pro Micro | - | no | [ATmega32U4](firmware-atmega32u4)
-[rev2](hardware-rev2) | 218x130x10 | PC, PS3 | - | ATmega32U4 | yes | [ATmega32U4](firmware-atmega32u4)
-[rev3](hardware-rev3) | 218x130x10 | PC, PS3, PS4 or PC, Switch, PS3, PS4, PS5\* | [Brook PS3/PS4](https://www.brookaccessory.com/detail/58690501/) or [P5 mini](https://www.brookaccessory.com/detail/92299183/) | - | yes | [Brook](https://www.brookaccessory.com/download/)
-[rev4](hardware-rev4) | 218x130x10 | PC, PS3, PS4\*, Switch | - | RP2040 | yes | [GP2040-CE](https://gp2040-ce.info/)
-[rev5](hardware-rev5) | 218x126x10 | PC, PS3, PS4\*, Switch | [RP2040-Zero](https://www.waveshare.com/rp2040-zero.htm) | - | no | [GP2040-CE](https://gp2040-ce.info/)
-[rev6](hardware-rev6) | 218x126x10 | PC, Switch | - | CH552T | yes | [CH552](firmware-ch552)
+The philosophy of this remix is to unify the auth addon and the controller itself without having anything sticking out from the side. 
 
-\* - with caveats
+For the code you should still refer to the official GP2040-CE download page, I've used the [Rev 5 firmware](https://gp2040-ce.info/downloads) and enabled the USB addon with this configuration of the USB host:
+
+<img width="559" alt="image" src="https://github.com/baronunread/flatbox5SP/assets/50637199/41a9b9ac-7d04-4f6c-9d1e-dd19679ba009">
