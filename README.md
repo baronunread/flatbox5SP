@@ -2,7 +2,7 @@
 
 This repository contains 3D-printable models, PCB design files needed to make an arcade controller that looks like this:
 
-![Assembled fightstick](https://github.com/baronunread/flatbox5SP/assets/50637199/3afaf9e5-e327-40fd-8197-14b3200fa890)
+![Assembled fightstick](hardware-rev5SP/images/Completed-build.jpg)
 
 This is a remix of the [Flatbox Rev 5 by jfedor2](https://github.com/jfedor2/flatbox/tree/master/hardware-rev5) but with the added functionality of the recent update of the GP2040-CE firmware that now supports external devices that can authenticate the fightsticks and enable them to be used also on PS5 and Xbox Series X|S
 
