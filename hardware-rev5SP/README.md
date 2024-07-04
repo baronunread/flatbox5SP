@@ -7,7 +7,7 @@ To make one you will need:
 * [3D printed](3d-printed-case) case parts - top and bottom
 * [the Flatbox 5SP PCB](pcb)
 * [RP2040-Zero](https://www.waveshare.com/rp2040-zero.htm)
-* 1 USB Female host, you should get these kind of USB [Aliexpress](https://aliexpress.com/item/32265708803.html)
+* 1 USB Female port, I got one from [Aliexpress](https://aliexpress.com/item/32265708803.html)
 * 12x Kailh low profile (choc v1) switches of your choice
 * (optionally) 12x Kailh low profile hotswap sockets
 * [3D printed buttoncaps](../3d-printed-buttoncaps)
