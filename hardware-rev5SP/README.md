@@ -28,9 +28,11 @@ To flash the firmware, connect the board to a computer with a USB cable, then pr
 
 (Of course you can also use any other RP2040-compatible firmware if you want.)
 
-![Flatbox rev5 unpopulated PCB](images/Flatbox-rev5-unpopulated-pcb.jpg)
+![Exploded view of the Flatbox 5SP](images/Flatbox-5SP-Exploded)
 
-![RP2040-Zero soldered on top of the PCB](images/Flatbox-rev5-rp2040-zero-soldered.jpg)
+![Flatbox rev5 unpopulated PCB](images/Flatbox-5SP-PCB)
+
+![Populated PCB](images/Populated-PCB)
 
 PCB design licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
